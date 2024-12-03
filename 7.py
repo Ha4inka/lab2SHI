@@ -12,7 +12,8 @@ def split_list(lst):
         seen.add(item)
     return unique, duplicates
 
-input_list = input("Введіть елементи списку через пробіл: ").split()
+
+input_list = input().split()
 
 unique_list, duplicate_list = split_list(input_list)
 
